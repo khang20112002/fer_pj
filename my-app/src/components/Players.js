@@ -5,7 +5,7 @@ export default class Player extends Component {
   render() {
     return (
       // <div className="container">
-      //     <div className="collumn">
+      //     <div className="column">
       //         <div className="card">
       //             <img src="assets/cr.jpg"/>
       //             <h3>Cristiano Ronaldo</h3>
