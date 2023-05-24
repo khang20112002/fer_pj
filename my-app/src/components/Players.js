@@ -4,7 +4,6 @@ import { Players } from "../shared/ListOfPlayers";
 export default class Player extends Component {
   render() {
     return (
-        
       // <div className="container">
       //     <div className="collumn">
       //         <div className="card">
