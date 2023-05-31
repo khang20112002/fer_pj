@@ -37,7 +37,7 @@
 /* .h-nav{
   background-color: black;
 } */
-
+/* 
 .h-ul{
   background-color: black;
   list-style-type: none;
@@ -67,7 +67,7 @@ a:hover:not(.active){
 .active{
   background-color: yellow;
   color: rgb(2, 2, 2);
-}
+} */
 
 .footer{
   background-color: yellow;

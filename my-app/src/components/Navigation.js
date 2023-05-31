@@ -1,13 +1,12 @@
-// import './App.css';
-import React, { Component } from "react";
-// import { Navbar, NavItem, Icon } from 'react-materialize';
+import React from "react";
+import "./Navigation.css"
 
-export default class Navigation extends Component {
-  render() {
-    return (
-      <div>
-        <nav>
-          <ul>
+export default function Navigation() {
+  return (
+    <nav>
+      <ul>
+        <div className="Header">
+          <div className="headerMenu">
             <li>
               <a className="active" href="#home">
                 Home
@@ -22,9 +21,9 @@ export default class Navigation extends Component {
             <li>
               <a href="#contact">Contact</a>
             </li>
-          </ul>
-        </nav>
-      </div>
-    );
-  }
+          </div>
+        </div>
+      </ul>
+    </nav>
+  );
 }
